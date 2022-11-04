@@ -1,10 +1,11 @@
 import './App.css';
-import Header from './components/Header';
+import Register from './pages/Register';
+import "./styles/style.scss"
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Register />
     </div>
   );
 }
